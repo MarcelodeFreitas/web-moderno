@@ -5,9 +5,14 @@ const produtos = [
     { nome: 'Copo de Plástico', preco: 18.99, fragil: false }
 ]
 
+// p representa cada um dos produtos
 console.log(produtos.filter(function(p) {
-    return false
+    return false //nehum elemento é retornado
+    //return true //retorna todos os elementos
+    //return p.preco > 2500
 }))
+
+//qdo se usa ofilter o array, geralmente, é menor do que o array original
 
 const caro = produto => produto.preco >= 500
 const fragil = produto => produto.fragil
