@@ -4,4 +4,4 @@ global.MinhaApp = Object.freeze({
         return 'Estou em todos os lugares!'
     },
     nome: 'Sistema Legal'
-})
+}) 
